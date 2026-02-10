@@ -5,7 +5,7 @@
 cobc -I ../src ^
   -fsyntax-only ^
   --free ^
-  ../src/*.cbl ^
+  ../src/**.cob ^
   -Wall ^
   -Wextra
 
