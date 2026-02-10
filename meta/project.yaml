@@ -1,0 +1,30 @@
+# Project metadata for humans to read
+# Not used by the application at runtime
+
+project-meta:
+  project-name: CobSort
+  author: Ethan Kletschke
+  date-started: 2026-02-10
+  last-updated: 2026-02-10
+  languages: 
+    - COBOL (GnuCOBOL)
+  status: Experimental
+  license: MIT
+  version: 0.0.2
+
+build:
+  dev-environments:
+    - Windows 11
+  test-environments: 
+    - Windows 11
+  target-platforms: 
+    - Windows 11
+  compiler:
+    compiler-name: cobc (GnuCOBOL)
+    static-compiler: false
+    compiler-version: 3.2
+
+team:
+  author: Ethan Kletschke
+  contributors:
+    - Ethan Kletschke
