@@ -5,3 +5,17 @@ on: [push, pull_request, workflow_dispatch]
 jobs:
   compile:
     runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      
+      - name: Setup GnuCOBOL
+        uses: fabasoad/setup-cobol-action@v1.6.1
+        with:
+          version: 3.2
+
+      - name: Lint COBOL Code
+        run: cobc -I src --free -fsyntax-only -Wfatal-errors -Wall -Wextra -Wno-terminator src/*.cob
+      
+      - name: Compile COBOL Code
+        run: cobc -I src --free -x src/*.cob -q
