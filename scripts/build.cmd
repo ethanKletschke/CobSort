@@ -4,7 +4,7 @@
 @REM Build in the binary folder without displaying warnings
 cobc -I ../src ^
   --free ^
-  -x ../src/*.cbl ^
+  -x ../src/**.cob ^
   -o ../bin/SortingFiles ^
   -q -w
 
