@@ -5,4 +5,4 @@ bin/
 *.zip
 
 # Backup data for testing
-data-bak/
+data-backups/
