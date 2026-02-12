@@ -28,3 +28,5 @@ The columns of the CSV have to be as follows:
 1. 4-digit ID, including leading zeros
 2. User name and surname, up to 45 characters
 3. 3-digit age, including leading zeros
+
+Do not include headers!
