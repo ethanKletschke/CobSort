@@ -6,3 +6,4 @@ bin/
 
 # Backup data for testing
 data-backups/
+*.bak
