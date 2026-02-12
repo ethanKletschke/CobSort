@@ -15,7 +15,8 @@ A free-format COBOL app that sorts a pre-defined file.
 3. Run the `.exe` provided in the decompressed folder.
 4. Open `Output.csv` to verify that the sorting is complete.
 
-## Disclaimer 
+## Using Your Own Data
 
-This app does nothing at the moment, except declare the files to use in the 
-program and display `"Hello, World!"`.
+Feel free to test the application with your own `.csv` files. Trying different
+data formats helps validate the robustness of the sorting logic and may uncover
+edge cases.
