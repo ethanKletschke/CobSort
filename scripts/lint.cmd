@@ -7,6 +7,7 @@ cobc -I ../src ^
   --free ^
   ../src/**.cob ^
   -Wall ^
-  -Wextra
+  -Wextra ^
+  -Wno-terminator
 
 @REM Note: Run from the same folder as the script.
