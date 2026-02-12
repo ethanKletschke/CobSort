@@ -7,6 +7,13 @@ A free-format COBOL app that sorts a pre-defined file.
 - Developed on: Windows 11
 - License: MIT
 
+## Instructions for Use
+
+1. Decompress the `.zip` folder provided in the latest GitHub release of the app
+2. Move the `.csv` files in the `data/` folder into the same folder as the
+  `.exe`.
+3. Run the `.exe` provided in the decompressed folder
+
 ## Disclaimer 
 
 This app does nothing at the moment, except declare the files to use in the 
