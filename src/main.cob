@@ -6,17 +6,17 @@ ENVIRONMENT DIVISION.
   INPUT-OUTPUT SECTION.
     FILE-CONTROL.
       *> The file to sort
-      SELECT Input-File ASSIGN TO "Input.txt"
+      SELECT Input-File ASSIGN TO "Input.csv"
       ORGANISATION LINE SEQUENTIAL
       ACCESS SEQUENTIAL.
 
       *> Sort work file
-      SELECT Sort-File ASSIGN TO "SortWork.txt"
+      SELECT Sort-File ASSIGN TO "SortWork.csv"
       ORGANISATION LINE SEQUENTIAL
       ACCESS SEQUENTIAL.
 
       *> Sort output file
-      SELECT Out-File ASSIGN TO "Output.txt"
+      SELECT Out-File ASSIGN TO "Output.csv"
       ORGANISATION LINE SEQUENTIAL
       ACCESS SEQUENTIAL.
 
