@@ -3,7 +3,7 @@
 A free-format COBOL app that sorts a pre-defined file.
 
 - Author: Ethan Kletschke
-- Version: `0.0.2`
+- Version: `0.0.3`
 - Developed on: Windows 11
 - License: MIT
 

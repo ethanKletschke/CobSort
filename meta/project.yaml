@@ -10,7 +10,7 @@ project-meta:
     - COBOL (GnuCOBOL)
   status: Experimental
   license: MIT
-  version: 0.0.2
+  version: 0.0.3
 
 build:
   dev-environments:
