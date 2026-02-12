@@ -10,7 +10,7 @@ ENVIRONMENT DIVISION.
       ORGANISATION LINE SEQUENTIAL
       ACCESS SEQUENTIAL.
 
-      *> Sort work file (internal to SORT statement)
+      *> Sort work file
       SELECT Sort-File ASSIGN TO "SortWork.txt"
       ORGANISATION LINE SEQUENTIAL
       ACCESS SEQUENTIAL.
