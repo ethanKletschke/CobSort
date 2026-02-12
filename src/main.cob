@@ -47,7 +47,13 @@ DATA DIVISION.
         05 Out-User-Age PIC 999.
 
 PROCEDURE DIVISION.
-  DISPLAY "Hello, World!".
+  SORT Sort-File
+    ON ASCENDING KEY Sf-UID
+    USING Input-File
+    GIVING Out-File.
+
+  DISPLAY "File Sorted".
+
   STOP RUN.
 
 END PROGRAM Sorting-Files.
