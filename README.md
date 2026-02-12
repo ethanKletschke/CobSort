@@ -23,7 +23,7 @@ edge cases. When doing so, please adhere to the rules listed below:
 
 ### CSV Layout
 
-The rows of the CSV have to be as follows:
+The columns of the CSV have to be as follows:
 
 1. 4-digit ID, including leading zeros
 2. User name and surname, up to 45 characters
