@@ -10,9 +10,10 @@ A free-format COBOL app that sorts a pre-defined file.
 ## Instructions for Use
 
 1. Decompress the `.zip` folder provided in the latest GitHub release of the app
-2. Move the `.csv` files in the `data/` folder into the same folder as the
+2. Move the `Input.csv` file in the `data/` folder into the same folder as the
   `.exe`.
-3. Run the `.exe` provided in the decompressed folder
+3. Run the `.exe` provided in the decompressed folder.
+4. Open `Output.csv` to verify that the sorting is complete.
 
 ## Disclaimer 
 
