@@ -5,6 +5,9 @@ A free-format COBOL app that sorts a pre-defined file.
 - Author: Ethan Kletschke
 - Version: `1.0.0`
 - Developed on: Windows 11
+- Targeted Platforms:
+  - Windows 11
+  - Windows 10
 - License: MIT
 
 ## Instructions for Use
