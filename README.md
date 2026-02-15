@@ -28,3 +28,16 @@ The columns of the CSV have to be as follows:
 3. 3-digit age, including leading zeros
 
 Do not include headers!
+
+### Notes on Sorting Limitations
+
+Due to COBOL’s strict handling of fixed-length fields, the program is currently 
+unable to reliably sort records by age. The username field is defined as exactly
+45 characters, but the CSV data does not always conform to this fixed length. 
+As a result, the second comma delimiter and the age value may be incorrectly 
+interpreted as part of the username field.
+
+Several attempts were made to address this issue, but they either failed to 
+resolve the parsing problem or caused the output file to become corrupted. This 
+limitation will remain until a more reliable method of handling variable-length 
+CSV fields is implemented.
