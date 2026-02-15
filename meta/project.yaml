@@ -8,9 +8,9 @@ project-meta:
   last-updated: 2026-02-10
   languages: 
     - COBOL (GnuCOBOL)
-  status: Experimental
+  status: Stable
   license: MIT
-  version: 0.0.3
+  version: 1.0.0
 
 build:
   dev-environments:
