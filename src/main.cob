@@ -47,12 +47,16 @@ DATA DIVISION.
         05 Out-User-Age PIC 999.
 
 PROCEDURE DIVISION.
+  DISPLAY 'Press Enter to Sort "Input.csv".'.
+  ACCEPT OMITTED.
+
   SORT Sort-File
     ON ASCENDING KEY Sf-UID
     USING Input-File
     GIVING Out-File.
 
-  DISPLAY "File Sorted".
+  DISPLAY "File Sorted. Press Enter to Exit.".
+  ACCEPT OMITTED.
 
   STOP RUN.
 
