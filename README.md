@@ -8,6 +8,7 @@ A free-format COBOL app that sorts a pre-defined file.
 - Targeted Platforms:
   - Windows 11
   - Windows 10
+  - Linux (see [here](#compiling-from-source))
 - License: MIT
 
 ## Instructions for Use
@@ -22,6 +23,28 @@ A free-format COBOL app that sorts a pre-defined file.
 - `Input.csv` doesn't have to strictly adhere to the format specified
   [here](#csv-layout), but it's recommended to stick to the format for proper
   sorting.
+
+### Compiling from Source
+
+If you have `cobc` and GnuCOBOL's runtime on your system, you can
+clone the app and compile it from source.
+
+This is done by:
+
+1. Cloning the app with `git clone`
+2. Navigating into the cloned project folder
+3. Navigating into `scripts`
+4. Running `build.cmd`
+
+For Linux users, run the following in the project root folder:
+
+```bash
+cobc -I ./src -free -x ./src/**.cob -o ./bin/CobSort  -w -q
+./bin/CobSort
+```
+
+**NOTE**: The app has NOT been tested on Linux. Proceed with caution and make
+a GitHub issue for me to fix whatever the problem is.
 
 ## Using Your Own Data
 
