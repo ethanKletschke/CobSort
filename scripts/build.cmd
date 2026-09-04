@@ -5,7 +5,7 @@
 cobc -I ../src ^
   --free ^
   -x ../src/**.cob ^
-  -o ../bin/SortingFiles ^
+  -o ../bin/CobSort ^
   -q -w
 
 @REM Note: Run from the "scripts" folder
